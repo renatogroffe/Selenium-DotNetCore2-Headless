@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Selenium.Utils", "Selenium.Utils\Selenium.Utils.csproj", "{8F0C9466-2E1B-4B14-8910-08935318D6BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConversorDistancias.Testes", "ConversorDistancias.Testes\ConversorDistancias.Testes.csproj", "{E67D08F4-8C8B-41E7-A268-029BEC0E944A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F0C9466-2E1B-4B14-8910-08935318D6BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F0C9466-2E1B-4B14-8910-08935318D6BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F0C9466-2E1B-4B14-8910-08935318D6BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F0C9466-2E1B-4B14-8910-08935318D6BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E67D08F4-8C8B-41E7-A268-029BEC0E944A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E67D08F4-8C8B-41E7-A268-029BEC0E944A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E67D08F4-8C8B-41E7-A268-029BEC0E944A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E67D08F4-8C8B-41E7-A268-029BEC0E944A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AE3D2204-F00B-45D0-9222-5DA3A6F24B9F}
+	EndGlobalSection
+EndGlobal
