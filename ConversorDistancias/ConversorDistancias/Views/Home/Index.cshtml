@@ -1,0 +1,35 @@
+﻿@model DistanciasViewModel
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Conversão de Distâncias</h1>
+</div>
+
+<form asp-controller="Home" asp-action="Index" method="post">
+    <h4>Informe a Distância</h4>
+    <div class="form-group">
+        <label class="control-label col-md-2">Valor em milhas:</label>
+        <div class="col-md-10">
+            <input asp-for="DistanciaMilhas" style="width: 200px;" class="form-control" data-val="true" />
+            <span asp-validation-for="DistanciaMilhas"></span>
+        </div>
+        <div class="form-group" style="padding-top: 40px; padding-bottom: 40px;">
+            <div class="col-md-offset-2 col-md-10">
+                <button id="btnConverter" type="submit" class="btn btn-default">Converter</button>
+            </div>
+        </div>
+
+        @if (Model != null && Model.DistanciaMilhas.HasValue)
+        {
+            <div class="form-group" style="padding-bottom: 20px;">
+                <label class="control-label col-md-2">Valor em Km:</label>
+                <div class="col-md-10">
+                    <label id="DistanciaKm" class="control-label col-md-2" style="text-align: left;">@Model.DistanciaKm.Value.ToString("0.0000")</label>
+                </div>
+            </div>
+        }
+    </div>
+</form>

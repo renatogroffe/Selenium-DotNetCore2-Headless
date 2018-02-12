@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConversorDistancias", "ConversorDistancias\ConversorDistancias.csproj", "{B1266203-1276-4900-B3DE-7893AAAA8578}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1266203-1276-4900-B3DE-7893AAAA8578}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1266203-1276-4900-B3DE-7893AAAA8578}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1266203-1276-4900-B3DE-7893AAAA8578}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1266203-1276-4900-B3DE-7893AAAA8578}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA25485A-A2D4-41C6-A59A-027E7669B8DD}
+	EndGlobalSection
+EndGlobal
